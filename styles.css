@@ -20,7 +20,7 @@ header {
 }
 
 nav {
-    background: #333;
+   background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -162,7 +162,7 @@ button:hover {
     margin-top: 10px;
     font-weight: bold;
     font-size: 25px;
-    color: black;
+ color: rgba(67, 10, 10, 0.192);
 }
 
 /* Media Queries */
