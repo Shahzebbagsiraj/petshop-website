@@ -16,15 +16,18 @@ header {
     margin: 0;
     padding: 0;
     background: linear-gradient(135deg, rgba(255, 215, 0, 0.1), rgba(0, 204, 255, 0.1));
+
     color: #333;
 }
 
 nav {
-   background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);
+
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     padding: 10px 0;
+    /*background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);*/
+    background-image: linear-gradient(to right, #76c3c9, #92c6de, #b5c8e4, #d1cbe2, #e1d2dd);
 }
 
 nav ul {
@@ -162,7 +165,7 @@ button:hover {
     margin-top: 10px;
     font-weight: bold;
     font-size: 25px;
- color: rgba(67, 10, 10, 0.192);
+    color: rgba(67, 10, 10, 0.192);
 }
 
 /* Media Queries */
